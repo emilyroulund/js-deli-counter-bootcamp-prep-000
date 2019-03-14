@@ -22,7 +22,7 @@ function nowServing (katzDeliLine){
 
 //accepts current line of people and returns it as string 
 function currentLine(line){
-  numberedLine = [];
+  var numberedLine = [];
   for (let i = 0; i < line.length; i++){
    numberedLine.push( `${i}. ${line[i]}` );
   }
