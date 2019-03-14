@@ -14,7 +14,7 @@ function nowServing (line){
   }
   else 
   for (var i = 0; i < line.length; i++){
-      line.shift[i];
+      line[i];
   }
   return (`Currently serving ${line[i]}`);
 }
