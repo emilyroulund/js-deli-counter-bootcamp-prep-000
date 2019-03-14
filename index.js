@@ -3,8 +3,11 @@ function takeANumber (currentLine, newName){
   currentLine.push (newName); 
     //currentLine is an array, we need to add the newName to the existing array
    // deli line = currentline + the new person, the new person's position in line is the index of their position in the array +1, if we add them to the currentline 
-   return ("Welcome, " + newName + ". You are number " + currentLine.length + " in line.")
+   return ("Welcome, " + newName + ". You are number " + currentLine.length + " in line.");
 }
+
+
+//accept the current line of people and return the first person in line, then remove that individual from the line 
 
 function nowServing (katzDeliLine){
   var i = 0;
@@ -18,6 +21,8 @@ function nowServing (katzDeliLine){
   }
 }
 
+
+//accepts current line of people and returns it as string 
 
 function currentLine(line){
   if (line.length===0) {
