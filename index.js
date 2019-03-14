@@ -26,6 +26,7 @@ function currentLine(line){
   for (let i = 0; i < line.length; i++){
    numberedLine.push( ` ${i + 1}. ${line[i]}`);
   }
+  // created a for loop, so i represents the index of the parameter, and therefore, when we add 1 to it, the index looks more like what a person would expect as the number in line. From there, we could create a new array that includes the position in line before each name is inserted; the for loop stops when we get to the end of the line 
     if (line.length===0) {
     return "The line is currently empty.";
   }
