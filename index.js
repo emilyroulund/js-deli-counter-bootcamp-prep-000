@@ -1,0 +1,33 @@
+ //purpose of first function is to add the new person to the end of the currentline 
+function takeANumber (currentLine, newName){
+  currentLine.push (newName); 
+    //currentLine is an array, we need to add the newName to the existing array
+   // deli line = currentline + the new person, the new person's position in line is the index of their position in the array +1, if we add them to the currentline 
+   return ("Welcome, " + newName + ". You are number " + currentLine.length + " in line.")
+}
+
+function nowServing (katzDeliLine){
+  var i = 0;
+  while (i>0){
+  ("Currently serving " + katzDeliLine[0]);
+    katzDeliLine.unshift [0]; 
+  i++;
+  }
+  if (katzDeliLine.length === 0){
+    return "There is nobody waiting to be served!";
+  }
+}
+
+
+function currentLine(line){
+  if (line.length===0) {
+    return "The line is currently empty."
+  }
+  else
+  return ("The line is currently: " + line + ".");
+  if (line.length > 0){
+    for (var i = 0; i>0; i++){
+      line.push(i)
+    }
+  }
+}
