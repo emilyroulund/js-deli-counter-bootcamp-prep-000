@@ -11,8 +11,7 @@ function takeANumber (currentLine, newName){
 function nowServing (katzDeliLine){
   var i = 0;
   while (i < katzDeliLine.length){
-  ("Currently serving " + katzDeliLine[i]);
-    katzDeliLine.shift [i]; 
+  (`Currently serving ${katzDeliLine[i]}.`);
   i++;
   }
   if (katzDeliLine.length === 0){
