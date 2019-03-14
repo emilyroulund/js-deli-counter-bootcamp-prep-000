@@ -8,9 +8,9 @@ function takeANumber (currentLine, newName){
 
 
 //accept the current line of people and return the first person in line, then remove that individual from the line 
-function nowServing (katzDeliLine){
+function nowServing (line){
   for (var i = 0; i < katzDeliLine.length; i++){
-  (`Currently serving ${katzDeliLine[i]}.`)
+  (`Currently serving ${line[i]}.`)
   }
   if (katzDeliLine.length === 0){
     return "There is nobody waiting to be served!";
