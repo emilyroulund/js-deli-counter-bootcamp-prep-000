@@ -22,8 +22,9 @@ function nowServing (katzDeliLine){
 
 //accepts current line of people and returns it as string 
 function currentLine(line){
+  numberedLine = [];
   for (let i = 0; i < line.length; i++){
-   line.push( `${i}. ${line[i]}` );
+   numberedLine.push( `${i}. ${line[i]}` );
   }
     if (line.length===0) {
     return "The line is currently empty.";
