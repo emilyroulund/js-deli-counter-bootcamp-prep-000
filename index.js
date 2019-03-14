@@ -8,7 +8,6 @@ function takeANumber (currentLine, newName){
 
 
 //accept the current line of people and return the first person in line, then remove that individual from the line 
-
 function nowServing (katzDeliLine){
   var i = 0;
   while (i>0){
@@ -21,9 +20,7 @@ function nowServing (katzDeliLine){
   }
 }
 
-
 //accepts current line of people and returns it as string 
-
 function currentLine(line){
   if (line.length===0) {
     return "The line is currently empty."
