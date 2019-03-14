@@ -13,7 +13,7 @@ function nowServing (line){
     return ("There is nobody waiting to be served!")
   }
   else 
-  return (`Currently serving ${line.shift()}.`);
+    return (`Currently serving ${line.shift()}.`);
 }
 
 //accepts current line of people and returns it as string 
