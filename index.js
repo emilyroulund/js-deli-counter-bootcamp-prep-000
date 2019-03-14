@@ -16,7 +16,7 @@ function nowServing (line){
   for (var i = 0; i < line.length; i++){
       line[i];
   }
-  return (`Currently serving ${line[i]}`);
+  return (`Currently serving ${line.shift()}`);
 }
 
 //accepts current line of people and returns it as string 
