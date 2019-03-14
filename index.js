@@ -9,8 +9,6 @@ function takeANumber (currentLine, newName){
 
 //accept the current line of people and return the first person in line, then remove that individual from the line 
 function nowServing (line){
-  for (var i = 0; i < line.length; i++){
-  }
   if (line.length === 0){
     return "There is nobody waiting to be served!";
   }
