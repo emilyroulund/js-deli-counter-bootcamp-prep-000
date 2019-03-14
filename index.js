@@ -12,7 +12,7 @@ function nowServing (katzDeliLine){
   var i = 0;
   while (i>0){
   ("Currently serving " + katzDeliLine[0]);
-    katzDeliLine.unshift [0]; 
+    katzDeliLine.shift [0]; 
   i++;
   }
   if (katzDeliLine.length === 0){
