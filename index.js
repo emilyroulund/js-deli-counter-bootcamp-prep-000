@@ -9,14 +9,14 @@ function takeANumber (currentLine, newName){
 
 //accept the current line of people and return the first person in line, then remove that individual from the line 
 function nowServing (line){
-    for (var i = 0; i < line.length; i++){
-      line.shift[i]
-  }
   if (line.length === 0){
     return "There is nobody waiting to be served!";
   }
   else 
-  return (`Currently serving ${line[i]}`)
+  for (var i = 0; i < line.length; i++){
+      line.shift[i];
+  }
+  return (`Currently serving ${line[i]}`);
 }
 
 //accepts current line of people and returns it as string 
